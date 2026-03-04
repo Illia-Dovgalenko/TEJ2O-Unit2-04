@@ -6,6 +6,7 @@
 */
 
 // our variable for a random number
+
 let randomNumber: number
 
 basic.clearScreen()
