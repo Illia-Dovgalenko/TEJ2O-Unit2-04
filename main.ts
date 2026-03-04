@@ -1,18 +1,18 @@
 /* Copyright (c) 2020 MTHS All rights reserved
  *
- * Created by: Mr. Coxall
- * Created on: Sep 2020
- * This program simulates a 6 sided dice
+ * Created by: Illia
+ * Created on: MAr 2026
+ * This program: Temperature
 */
 
-// our variable for a random number
+let temperature = 0
 
-let randomNumber: number
 
-basic.clearScreen()
 basic.showIcon(IconNames.Happy)
 
 input.onButtonPressed(Button.A, function () {
-  randomNumber = randint(1, 6)
-  basic.showNumber(randomNumber)
+  
+    temperature + input.temperature()
+    
+    basic.showString('The temperature is :' + temperature + ' C' )
 })
